@@ -1,9 +1,9 @@
 configuration: Release
 
 install:
-- choco install opencover -source https://nuget.org/api/v2/
-- choco install coveralls.io -source https://nuget.org/api/v2/
-- choco install resharper-clt
+#- choco install opencover -source https://nuget.org/api/v2/
+#- choco install coveralls.io -source https://nuget.org/api/v2/
+#- choco install resharper-clt
 - where GitVersion
 - GitVersion /output buildserver /UpdateAssemblyInfo true
 
